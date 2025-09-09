@@ -1,0 +1,41 @@
+h1 {
+color: rgb(228, 9, 9);
+text-align: left;
+font-size: 8pt
+}
+h1 {
+text-align: right;
+font-size: 20pt }
+#page-container { width: 760px; margin: auto; background: red;
+}
+#header {
+background: blue;
+height: 150px;
+}
+#content {
+background: green;
+}
+#footer {
+background: orange;
+height: 66px;
+}
+#main-nav {
+height: 15px;
+text-align:center;
+font-family: Tahoma, Arial, Helvetica, Sans-serif;
+}
+#main-nav a{
+color: #c9c9c9;
+text-decoration: none;
+}
+#main-nav a:hover{color: #db6d16;}
+CSS untuk bagian footer
+#footer {
+height: 70px;
+font-family: Tahoma, Arial, Helvetica, Sans-serif;
+font-size: 10px;
+color: #c9c9c9;
+border-top: 1px solid #efefef;
+padding: 13px 25px;
+line-height: 18px;
+}
