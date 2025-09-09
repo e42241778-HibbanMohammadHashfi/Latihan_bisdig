@@ -1,21 +1,12 @@
-h1 {
-color: rgb(228, 9, 9);
-text-align: left;
-font-size: 8pt
-}
-h1 {
-text-align: right;
-font-size: 20pt }
 #page-container { width: 760px; margin: auto; background: red;
 }
-#header {
-background: blue;
+#header {background: blue;
 height: 150px;
 }
 #content {
 background: green;
 }
-#footer {
+#footer { Clear:both;
 background: orange;
 height: 66px;
 }
@@ -28,14 +19,29 @@ font-family: Tahoma, Arial, Helvetica, Sans-serif;
 color: #c9c9c9;
 text-decoration: none;
 }
-#main-nav a:hover{color: #db6d16;}
-CSS untuk bagian footer
-#footer {
-height: 70px;
-font-family: Tahoma, Arial, Helvetica, Sans-serif;
-font-size: 10px;
+#main-nav a{
+color: #02551d;
+text-decoration: none;
+}
+
+#footer a {
 color: #c9c9c9;
-border-top: 1px solid #efefef;
-padding: 13px 25px;
-line-height: 18px;
+text-decoration: none;
+}
+#footer a:hover {
+color: #db6d16;
+}
+#footer #altnav {
+width: 350px;
+float: right;
+text-align: right;
+}
+#content {
+font-family:Tahoma, arial, helvetica, sans-serif;
+font-size:14px;
+padding: 15px 15px;}
+#side_bar{
+background:#996600;
+float:right;
+width:150px;
 }
